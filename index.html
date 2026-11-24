@@ -1,0 +1,1271 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>警花张津渝 - 官方视频门户 | 温暖真实的人物影像社区</title>
+<meta name="description" content="警花张津渝官方网站，以真实温暖的原创高清影像，记录从警日常、普法知识与社区故事，构建值得信赖的人物影像与内容生态。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231a3a6b'/%3E%3Cpath d='M20 34l8 8 16-18' stroke='%23ffd166' stroke-width='6' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<style>
+  :root{
+    --zjy-navy:#1a3a6b;
+    --zjy-navy-deep:#102748;
+    --zjy-navy-soft:#e8eef7;
+    --zjy-gold:#e8a33d;
+    --zjy-gold-soft:#fbf1de;
+    --zjy-gray:#5b6b82;
+    --zjy-line:#dfe6f0;
+    --zjy-bg:#f5f8fc;
+    --zjy-white:#ffffff;
+    --zjy-radius:16px;
+    --zjy-head-h:112px;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,sans-serif;
+    color:#22314a;
+    background:var(--zjy-bg);
+    line-height:1.7;
+    -webkit-font-smoothing:antialiased;
+  }
+  img{max-width:100%;display:block;}
+  a{color:inherit;text-decoration:none;}
+  h1,h2,h3,h4,p,ul,ol{margin:0;}
+  ul,ol{padding-left:1.2em;}
+  [id]{scroll-margin-top:calc(var(--zjy-head-h) + 16px);}
+  .zjy-wrap{width:min(1160px,92vw);margin:0 auto;}
+  .zjy-btn{
+    display:inline-flex;align-items:center;justify-content:center;gap:.4em;
+    padding:.7em 1.5em;border-radius:999px;border:1px solid transparent;
+    font-size:.95rem;font-weight:600;cursor:pointer;transition:.25s ease;
+    background:var(--zjy-white);color:var(--zjy-navy);
+  }
+  .zjy-btn--primary{background:var(--zjy-gold);color:#3a2606;}
+  .zjy-btn--primary:hover{background:#f2b455;transform:translateY(-2px);}
+  .zjy-btn--ghost{border-color:rgba(255,255,255,.55);color:#fff;background:transparent;}
+  .zjy-btn--ghost:hover{background:rgba(255,255,255,.14);}
+  .zjy-btn--line{border-color:var(--zjy-line);color:var(--zjy-navy);background:#fff;}
+  .zjy-btn--line:hover{border-color:var(--zjy-navy);transform:translateY(-2px);}
+
+  /* ---------- 吸顶：公告条 + 页头 ---------- */
+  .zjy-sticky-top{position:sticky;top:0;z-index:60;box-shadow:0 6px 24px rgba(16,39,72,.10);}
+  .zjy-announce{
+    background:linear-gradient(90deg,var(--zjy-navy-deep),var(--zjy-navy) 55%,#25518f);
+    color:#fff;font-size:.86rem;
+  }
+  .zjy-announce__inner{
+    width:min(1160px,92vw);margin:0 auto;display:flex;align-items:center;gap:.8em;
+    padding:.5em 0;overflow:hidden;white-space:nowrap;
+  }
+  .zjy-announce__tag{
+    flex:none;background:var(--zjy-gold);color:#3a2606;font-weight:700;
+    padding:.1em .7em;border-radius:999px;font-size:.78rem;
+  }
+  .zjy-announce__track{display:flex;gap:2.4em;animation:zjy-marquee 34s linear infinite;}
+  .zjy-announce__track span{opacity:.94;}
+  @keyframes zjy-marquee{from{transform:translateX(0);}to{transform:translateX(-50%);}}
+
+  .zjy-header{background:rgba(255,255,255,.96);backdrop-filter:blur(10px);border-bottom:1px solid var(--zjy-line);}
+  .zjy-header__inner{
+    width:min(1160px,92vw);margin:0 auto;display:flex;align-items:center;gap:1.4em;
+    padding:.7em 0;min-height:64px;
+  }
+  .zjy-logo{display:flex;align-items:center;gap:.6em;flex:none;}
+  .zjy-logo__mark{
+    width:40px;height:40px;border-radius:12px;background:var(--zjy-navy);
+    display:grid;place-items:center;color:var(--zjy-gold);font-weight:800;font-size:1.05rem;
+    box-shadow:inset 0 0 0 2px rgba(232,163,61,.35);
+  }
+  .zjy-logo__text{display:flex;flex-direction:column;line-height:1.25;}
+  .zjy-logo__name{font-weight:800;font-size:1.02rem;color:var(--zjy-navy);letter-spacing:.02em;}
+  .zjy-logo__sub{font-size:.7rem;color:var(--zjy-gray);letter-spacing:.16em;}
+  .zjy-nav{display:flex;gap:.2em;margin-left:auto;flex-wrap:wrap;}
+  .zjy-nav a{
+    padding:.45em .8em;border-radius:8px;font-size:.92rem;color:#33465f;font-weight:500;
+    transition:.2s;
+  }
+  .zjy-nav a:hover{background:var(--zjy-navy-soft);color:var(--zjy-navy);}
+  .zjy-search{position:relative;flex:none;}
+  .zjy-search input{
+    width:190px;padding:.55em .9em .55em 2.1em;border-radius:999px;border:1px solid var(--zjy-line);
+    background:var(--zjy-bg);font-size:.88rem;outline:none;transition:.2s;
+  }
+  .zjy-search input:focus{border-color:var(--zjy-navy);background:#fff;width:220px;}
+  .zjy-search::before{
+    content:"⌕";position:absolute;left:.8em;top:50%;transform:translateY(-50%);
+    color:var(--zjy-gray);font-size:1.05rem;font-weight:700;
+  }
+  .zjy-search__hint{
+    position:absolute;top:calc(100% + 8px);left:0;right:0;background:#fff;border:1px solid var(--zjy-line);
+    border-radius:10px;padding:.5em .7em;font-size:.8rem;color:var(--zjy-gray);display:none;
+    box-shadow:0 10px 26px rgba(16,39,72,.14);
+  }
+  .zjy-search__hint.is-on{display:block;}
+  .zjy-menu-btn{
+    display:none;background:var(--zjy-navy-soft);border:none;border-radius:10px;
+    padding:.5em .8em;font-size:.9rem;font-weight:600;color:var(--zjy-navy);cursor:pointer;
+  }
+
+  /* ---------- 首屏 ---------- */
+  .zjy-hero{
+    background:radial-gradient(1200px 480px at 82% -10%,#2b5ea8 0%,transparent 62%),
+               linear-gradient(160deg,var(--zjy-navy-deep),var(--zjy-navy) 70%,#20457c);
+    color:#fff;padding:clamp(2.4rem,5vw,4.2rem) 0 3rem;position:relative;overflow:hidden;
+  }
+  .zjy-hero::after{
+    content:"";position:absolute;right:-140px;bottom:-160px;width:420px;height:420px;
+    border-radius:50%;border:1px solid rgba(232,163,61,.28);
+  }
+  .zjy-hero__grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(1.6rem,4vw,3.4rem);align-items:center;position:relative;z-index:1;}
+  .zjy-hero__badge{
+    display:inline-flex;align-items:center;gap:.5em;font-size:.8rem;letter-spacing:.1em;
+    background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.22);
+    padding:.35em .9em;border-radius:999px;color:#f7e3bf;
+  }
+  .zjy-hero h1{
+    font-size:clamp(2.2rem,5vw,3.5rem);line-height:1.15;margin:.55em 0 .35em;
+    letter-spacing:.02em;font-weight:800;
+  }
+  .zjy-hero h1 em{font-style:normal;color:var(--zjy-gold);}
+  .zjy-hero__lead{font-size:1rem;color:#d6e1f2;max-width:34em;margin-bottom:1.3em;}
+  .zjy-hero__intro{
+    font-size:.93rem;color:#c3d2e8;border-left:3px solid var(--zjy-gold);
+    padding-left:1em;margin-bottom:1.6em;max-width:36em;
+  }
+  .zjy-hero__actions{display:flex;flex-wrap:wrap;gap:.7em;margin-bottom:1.8em;}
+  .zjy-hero__stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.8em;max-width:460px;}
+  .zjy-stat{
+    background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.16);
+    border-radius:12px;padding:.75em .85em;
+  }
+  .zjy-stat b{display:block;font-size:1.32rem;color:#fff;letter-spacing:.01em;}
+  .zjy-stat span{font-size:.76rem;color:#b9c9e2;}
+  .zjy-hero__visual{position:relative;}
+  .zjy-hero__visual img{
+    width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:22px;
+    box-shadow:0 26px 60px rgba(6,18,38,.5);
+  }
+  .zjy-hero__float{
+    position:absolute;left:-10px;bottom:16px;background:#fff;color:var(--zjy-navy);
+    border-radius:14px;padding:.65em .95em;box-shadow:0 14px 34px rgba(6,18,38,.34);
+    font-size:.82rem;line-height:1.45;max-width:230px;
+  }
+  .zjy-hero__float strong{display:block;color:var(--zjy-navy-deep);font-size:.9rem;}
+
+  /* ---------- 通用 section ---------- */
+  .zjy-section{padding:clamp(2.2rem,4.5vw,3.6rem) 0;}
+  .zjy-section--alt{background:#fff;}
+  .zjy-sec-head{margin-bottom:1.8rem;max-width:52em;}
+  .zjy-eyebrow{
+    font-size:.76rem;letter-spacing:.2em;color:var(--zjy-gold);font-weight:700;
+    text-transform:uppercase;
+  }
+  .zjy-sec-head h2{
+    font-size:clamp(1.4rem,2.8vw,1.95rem);color:var(--zjy-navy-deep);
+    margin:.25em 0 .5em;line-height:1.3;font-weight:800;
+  }
+  .zjy-sec-head p{color:var(--zjy-gray);font-size:.94rem;}
+
+  /* ---------- 焦点内容 ---------- */
+  .zjy-focus{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:1.6em;}
+  .zjy-focus__main{
+    background:#fff;border-radius:var(--zjy-radius);overflow:hidden;border:1px solid var(--zjy-line);
+    box-shadow:0 12px 30px rgba(16,39,72,.07);display:flex;flex-direction:column;
+  }
+  .zjy-focus__main img{width:100%;aspect-ratio:16/9;object-fit:cover;}
+  .zjy-focus__body{padding:1.2em 1.35em 1.4em;}
+  .zjy-tag{
+    display:inline-block;font-size:.72rem;padding:.18em .7em;border-radius:999px;
+    background:var(--zjy-gold-soft);color:#8a5a10;font-weight:600;margin-right:.4em;
+  }
+  .zjy-tag--navy{background:var(--zjy-navy-soft);color:var(--zjy-navy);}
+  .zjy-focus__body h3{font-size:1.22rem;color:var(--zjy-navy-deep);margin:.5em 0 .4em;line-height:1.4;}
+  .zjy-focus__body p{font-size:.92rem;color:#4a5b74;}
+  .zjy-focus__list{display:flex;flex-direction:column;gap:.9em;}
+  .zjy-mini{
+    background:#fff;border:1px solid var(--zjy-line);border-radius:12px;padding:.95em 1.1em;
+    display:flex;gap:1em;align-items:flex-start;transition:.22s;
+  }
+  .zjy-mini:hover{transform:translateY(-3px);border-color:#b9cbe4;box-shadow:0 12px 26px rgba(16,39,72,.1);}
+  .zjy-mini__num{
+    flex:none;width:36px;height:36px;border-radius:10px;background:var(--zjy-navy-soft);
+    color:var(--zjy-navy);display:grid;place-items:center;font-weight:800;font-size:.92rem;
+  }
+  .zjy-mini h4{font-size:.98rem;color:var(--zjy-navy-deep);line-height:1.45;}
+  .zjy-mini p{font-size:.83rem;color:var(--zjy-gray);margin-top:.2em;}
+  .zjy-card-meta{display:flex;flex-wrap:wrap;gap:.9em;font-size:.78rem;color:#6d7f97;margin-top:.7em;}
+  .zjy-card-meta b{color:var(--zjy-navy);font-weight:600;}
+
+  /* ---------- 视频列表 ---------- */
+  .zjy-vlist{display:flex;flex-direction:column;gap:1em;}
+  .zjy-vitem{
+    background:#fff;border:1px solid var(--zjy-line);border-radius:14px;padding:1.05em 1.2em;
+    display:grid;grid-template-columns:minmax(0,1fr) auto;gap:1em;align-items:center;transition:.22s;
+  }
+  .zjy-vitem:hover{border-color:#b9cbe4;box-shadow:0 10px 26px rgba(16,39,72,.09);}
+  .zjy-vitem__top{display:flex;flex-wrap:wrap;align-items:center;gap:.55em;margin-bottom:.3em;}
+  .zjy-vitem h3{font-size:1.02rem;color:var(--zjy-navy-deep);line-height:1.45;}
+  .zjy-vitem p{font-size:.86rem;color:var(--zjy-gray);margin-top:.25em;}
+  .zjy-vitem__author{font-size:.78rem;color:#7a8ba1;margin-top:.4em;}
+  .zjy-vitem__author b{color:var(--zjy-navy);}
+  .zjy-actions{display:flex;gap:.45em;flex-wrap:wrap;justify-content:flex-end;}
+  .zjy-act{
+    border:1px solid var(--zjy-line);background:#fff;border-radius:999px;padding:.4em .85em;
+    font-size:.79rem;color:#4a5b74;cursor:pointer;transition:.2s;display:inline-flex;gap:.35em;align-items:center;
+    white-space:nowrap;
+  }
+  .zjy-act:hover{border-color:var(--zjy-navy);color:var(--zjy-navy);}
+  .zjy-act.is-liked{background:#fdeee6;border-color:#f3b39a;color:#c0502a;}
+  .zjy-act.is-saved{background:var(--zjy-gold-soft);border-color:var(--zjy-gold);color:#8a5a10;}
+
+  /* ---------- 专题 ---------- */
+  .zjy-topics{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:1.3em;}
+  .zjy-topic{
+    background:#fff;border:1px solid var(--zjy-line);border-radius:var(--zjy-radius);
+    padding:1.3em 1.35em;display:flex;flex-direction:column;gap:.7em;
+  }
+  .zjy-topic__status{
+    align-self:flex-start;font-size:.72rem;font-weight:700;color:#1e6b45;background:#e4f5ec;
+    padding:.18em .7em;border-radius:999px;
+  }
+  .zjy-topic__status--soon{color:#8a5a10;background:var(--zjy-gold-soft);}
+  .zjy-topic h3{font-size:1.08rem;color:var(--zjy-navy-deep);line-height:1.45;}
+  .zjy-topic > p{font-size:.88rem;color:var(--zjy-gray);}
+  .zjy-topic ul{list-style:none;padding:0;display:flex;flex-direction:column;gap:.5em;}
+  .zjy-topic li{
+    font-size:.85rem;color:#4a5b74;padding-left:1.1em;position:relative;line-height:1.55;
+  }
+  .zjy-topic li::before{
+    content:"";position:absolute;left:0;top:.62em;width:6px;height:6px;border-radius:50%;
+    background:var(--zjy-gold);
+  }
+  .zjy-topic__figure img{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:12px;}
+
+  /* ---------- 创作者 ---------- */
+  .zjy-authors{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:1.2em;}
+  .zjy-author{
+    background:#fff;border:1px solid var(--zjy-line);border-radius:var(--zjy-radius);
+    padding:1.25em 1.15em;text-align:center;transition:.22s;
+  }
+  .zjy-author:hover{transform:translateY(-4px);box-shadow:0 14px 34px rgba(16,39,72,.11);}
+  .zjy-avatar{
+    width:64px;height:64px;border-radius:50%;margin:0 auto .7em;display:grid;place-items:center;
+    font-weight:800;font-size:1.15rem;color:#fff;letter-spacing:.02em;
+  }
+  .zjy-author h3{font-size:1rem;color:var(--zjy-navy-deep);}
+  .zjy-author__field{font-size:.78rem;color:var(--zjy-gold);font-weight:700;margin:.25em 0 .5em;}
+  .zjy-author p{font-size:.83rem;color:var(--zjy-gray);text-align:left;}
+  .zjy-author__nums{display:flex;justify-content:center;gap:1.1em;font-size:.78rem;color:#6d7f97;margin-top:.7em;}
+  .zjy-author__nums b{color:var(--zjy-navy);}
+  .zjy-author button{margin-top:.85em;width:100%;}
+
+  /* ---------- 观点/评价 ---------- */
+  .zjy-quotes{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:1.1em;}
+  .zjy-quote{
+    background:#fff;border-left:4px solid var(--zjy-gold);border-radius:12px;
+    padding:1em 1.15em;box-shadow:0 8px 22px rgba(16,39,72,.06);
+  }
+  .zjy-quote p{font-size:.9rem;color:#3d4f68;}
+  .zjy-quote footer{font-size:.78rem;color:#7a8ba1;margin-top:.6em;}
+  .zjy-quote footer b{color:var(--zjy-navy);}
+
+  /* ---------- 数据榜单 ---------- */
+  .zjy-board{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:1.3em;}
+  .zjy-board__col{background:#fff;border:1px solid var(--zjy-line);border-radius:var(--zjy-radius);padding:1.2em 1.3em;}
+  .zjy-board__col h3{font-size:1rem;color:var(--zjy-navy-deep);display:flex;align-items:center;gap:.5em;margin-bottom:.8em;}
+  .zjy-board__col h3 span{font-size:.7rem;background:var(--zjy-navy);color:#fff;padding:.1em .6em;border-radius:999px;}
+  .zjy-rank{list-style:none;padding:0;display:flex;flex-direction:column;gap:.65em;}
+  .zjy-rank li{display:flex;gap:.7em;align-items:baseline;font-size:.87rem;color:#43556e;}
+  .zjy-rank li i{
+    font-style:normal;flex:none;width:22px;height:22px;border-radius:7px;background:var(--zjy-navy-soft);
+    color:var(--zjy-navy);font-size:.74rem;font-weight:800;display:grid;place-items:center;
+  }
+  .zjy-rank li:nth-child(1) i{background:var(--zjy-gold);color:#3a2606;}
+  .zjy-rank li em{font-style:normal;margin-left:auto;font-size:.78rem;color:#8a9bb2;}
+
+  /* ---------- 关键词解析长文 ---------- */
+  .zjy-essay{
+    background:#fff;border:1px solid var(--zjy-line);border-radius:var(--zjy-radius);
+    padding:clamp(1.4rem,3.2vw,2.4rem);
+  }
+  .zjy-essay h3{
+    font-size:1.12rem;color:var(--zjy-navy-deep);margin:1.5em 0 .5em;
+    padding-left:.6em;border-left:3px solid var(--zjy-gold);line-height:1.45;
+  }
+  .zjy-essay h3:first-of-type{margin-top:.6em;}
+  .zjy-essay p{font-size:.93rem;color:#41536c;margin-bottom:.85em;line-height:1.85;}
+  .zjy-essay strong{color:var(--zjy-navy);}
+
+  /* ---------- 故事 ---------- */
+  .zjy-stories{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:1.2em;}
+  .zjy-story{
+    background:#fff;border:1px solid var(--zjy-line);border-radius:var(--zjy-radius);
+    padding:1.2em 1.25em;
+  }
+  .zjy-story h3{font-size:1rem;color:var(--zjy-navy-deep);margin-bottom:.5em;line-height:1.45;}
+  .zjy-story p{font-size:.87rem;color:var(--zjy-gray);}
+
+  /* ---------- 动态 ---------- */
+  .zjy-news{display:flex;flex-direction:column;gap:.8em;max-width:820px;}
+  .zjy-news__item{
+    display:flex;gap:1em;background:#fff;border:1px solid var(--zjy-line);border-radius:12px;
+    padding:.9em 1.1em;align-items:baseline;
+  }
+  .zjy-news__date{flex:none;font-size:.78rem;font-weight:700;color:var(--zjy-gold);letter-spacing:.02em;}
+  .zjy-news__item p{font-size:.89rem;color:#46587a;}
+  .zjy-news__item b{color:var(--zjy-navy);}
+
+  /* ---------- 合作 ---------- */
+  .zjy-partners{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,150px),1fr));gap:.9em;}
+  .zjy-partner{
+    background:#fff;border:1px dashed #c7d4e6;border-radius:12px;padding:1.1em .8em;
+    text-align:center;font-size:.86rem;font-weight:700;color:#4a5b74;letter-spacing:.02em;
+    transition:.2s;
+  }
+  .zjy-partner:hover{border-style:solid;border-color:var(--zjy-navy);color:var(--zjy-navy);}
+
+  /* ---------- FAQ ---------- */
+  .zjy-faq{display:flex;flex-direction:column;gap:.7em;max-width:880px;}
+  .zjy-faq details{
+    background:#fff;border:1px solid var(--zjy-line);border-radius:12px;padding:.9em 1.1em;
+    transition:.2s;
+  }
+  .zjy-faq details[open]{border-color:#b7c9e1;box-shadow:0 10px 24px rgba(16,39,72,.08);}
+  .zjy-faq summary{
+    cursor:pointer;font-weight:600;font-size:.94rem;color:var(--zjy-navy-deep);
+    list-style:none;display:flex;justify-content:space-between;gap:1em;align-items:center;
+  }
+  .zjy-faq summary::-webkit-details-marker{display:none;}
+  .zjy-faq summary::after{
+    content:"+";font-size:1.15rem;color:var(--zjy-gold);font-weight:700;flex:none;transition:.2s;
+  }
+  .zjy-faq details[open] summary::after{content:"−";}
+  .zjy-faq p{font-size:.88rem;color:var(--zjy-gray);margin-top:.6em;}
+
+  /* ---------- 投稿/联系 ---------- */
+  .zjy-contact{
+    display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);gap:1.4em;
+    background:linear-gradient(150deg,var(--zjy-navy),var(--zjy-navy-deep));color:#fff;
+    border-radius:20px;padding:clamp(1.4rem,3.4vw,2.4rem);
+  }
+  .zjy-contact h2{font-size:clamp(1.3rem,2.6vw,1.8rem);margin-bottom:.5em;color:#fff;}
+  .zjy-contact p{font-size:.9rem;color:#c7d5ea;margin-bottom:.9em;}
+  .zjy-contact__box{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);border-radius:14px;padding:1.1em 1.2em;}
+  .zjy-contact__box h3{font-size:.95rem;color:var(--zjy-gold);margin-bottom:.5em;}
+  .zjy-contact__box p{font-size:.85rem;margin-bottom:.4em;}
+
+  /* ---------- 页脚 ---------- */
+  .zjy-footer{background:#0c1f3a;color:#9fb2cd;padding:2.8rem 0 1.4rem;font-size:.86rem;}
+  .zjy-footer__grid{display:grid;grid-template-columns:minmax(0,1.4fr) repeat(3,minmax(0,.7fr));gap:2em;}
+  .zjy-footer h3{color:#fff;font-size:.95rem;margin-bottom:.7em;}
+  .zjy-footer ul{list-style:none;padding:0;display:flex;flex-direction:column;gap:.45em;}
+  .zjy-footer a:hover{color:var(--zjy-gold);}
+  .zjy-footer__brand p{max-width:30em;margin-top:.6em;font-size:.82rem;color:#8ea3c0;line-height:1.8;}
+  .zjy-footer__bottom{
+    border-top:1px solid rgba(255,255,255,.12);margin-top:2em;padding-top:1.1em;
+    display:flex;flex-wrap:wrap;gap:.6em 1.4em;justify-content:space-between;font-size:.78rem;color:#7e93b1;
+  }
+
+  /* ---------- 弹窗/Toast ---------- */
+  .zjy-modal{
+    position:fixed;inset:0;background:rgba(9,22,42,.55);display:none;place-items:center;z-index:120;
+    padding:1.2em;backdrop-filter:blur(3px);
+  }
+  .zjy-modal.is-on{display:grid;}
+  .zjy-modal__panel{
+    background:#fff;border-radius:18px;padding:1.6em 1.5em;width:min(520px,92vw);
+    box-shadow:0 30px 70px rgba(6,18,38,.4);position:relative;
+  }
+  .zjy-modal__panel h3{color:var(--zjy-navy-deep);font-size:1.1rem;margin-bottom:.6em;}
+  .zjy-modal__panel p{font-size:.88rem;color:var(--zjy-gray);margin-bottom:.8em;}
+  .zjy-modal__panel textarea{
+    width:100%;min-height:100px;border:1px solid var(--zjy-line);border-radius:10px;padding:.7em;
+    font:inherit;font-size:.88rem;resize:vertical;outline:none;
+  }
+  .zjy-modal__panel textarea:focus{border-color:var(--zjy-navy);}
+  .zjy-modal__close{
+    position:absolute;top:.8em;right:.9em;border:none;background:var(--zjy-bg);border-radius:8px;
+    width:30px;height:30px;cursor:pointer;font-size:1rem;color:var(--zjy-gray);
+  }
+  .zjy-modal__foot{display:flex;justify-content:flex-end;gap:.6em;margin-top:.9em;}
+  .zjy-toast{
+    position:fixed;left:50%;bottom:34px;transform:translate(-50%,20px);opacity:0;pointer-events:none;
+    background:var(--zjy-navy-deep);color:#fff;padding:.7em 1.3em;border-radius:999px;
+    font-size:.85rem;z-index:200;transition:.3s;box-shadow:0 14px 34px rgba(6,18,38,.4);
+  }
+  .zjy-toast.is-on{opacity:1;transform:translate(-50%,0);}
+  .zjy-top{
+    position:fixed;right:22px;bottom:26px;width:44px;height:44px;border-radius:50%;
+    border:none;background:var(--zjy-navy);color:#fff;font-size:1.1rem;cursor:pointer;
+    box-shadow:0 12px 28px rgba(16,39,72,.34);display:none;z-index:90;
+  }
+  .zjy-top.is-on{display:block;}
+
+  @media (max-width:900px){
+    .zjy-hero__grid{grid-template-columns:minmax(0,1fr);}
+    .zjy-focus{grid-template-columns:minmax(0,1fr);}
+    .zjy-contact{grid-template-columns:minmax(0,1fr);}
+    .zjy-footer__grid{grid-template-columns:minmax(0,1fr) minmax(0,1fr);}
+  }
+  @media (max-width:760px){
+    :root{--zjy-head-h:104px;}
+    .zjy-menu-btn{display:inline-block;margin-left:auto;}
+    .zjy-nav{
+      display:none;order:10;width:100%;flex-direction:column;gap:.15em;
+      padding:.5em 0 .7em;border-top:1px solid var(--zjy-line);margin-top:.4em;
+    }
+    .zjy-nav.is-open{display:flex;}
+    .zjy-header__inner{flex-wrap:wrap;gap:.6em;}
+    .zjy-search{order:9;width:100%;}
+    .zjy-search input, .zjy-search input:focus{width:100%;}
+    .zjy-vitem{grid-template-columns:minmax(0,1fr);}
+    .zjy-actions{justify-content:flex-start;}
+  }
+  @media (max-width:560px){
+    .zjy-hero__stats{grid-template-columns:minmax(0,1fr);}
+    .zjy-footer__grid{grid-template-columns:minmax(0,1fr);}
+    .zjy-top{right:14px;bottom:18px;}
+  }
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<div class="zjy-sticky-top">
+  <div class="zjy-announce" aria-label="最新公告">
+    <div class="zjy-announce__inner">
+      <span class="zjy-announce__tag">官方发布</span>
+      <div class="zjy-announce__track">
+        <span>《警花张津渝·反诈小课堂》第 12 集上线：三分钟识破“熟人转账”话术</span>
+        <span>冬季校园普法企划「法治微光」开放报名，面向 30 所中学征集影像作业</span>
+        <span>张津渝官方视频门户高清片源全面更新，新增下载与收藏功能</span>
+        <span>《警花张津渝·反诈小课堂》第 12 集上线：三分钟识破“熟人转账”话术</span>
+        <span>冬季校园普法企划「法治微光」开放报名，面向 30 所中学征集影像作业</span>
+        <span>张津渝官方视频门户高清片源全面更新，新增下载与收藏功能</span>
+      </div>
+    </div>
+  </div>
+
+  <header class="zjy-header">
+    <div class="zjy-header__inner">
+      <a class="zjy-logo" href="#zjy-top-anchor" aria-label="警花张津渝官方视频门户首页">
+        <span class="zjy-logo__mark" aria-hidden="true">张</span>
+        <span class="zjy-logo__text">
+          <span class="zjy-logo__name">警花张津渝</span>
+          <span class="zjy-logo__sub">OFFICIAL VIDEO PORTAL</span>
+        </span>
+      </a>
+      <nav class="zjy-nav" id="zjyNav" aria-label="主导航">
+        <a href="#zjy-focus">焦点内容</a>
+        <a href="#zjy-videos">视频精选</a>
+        <a href="#zjy-topics">专题企划</a>
+        <a href="#zjy-authors">创作者</a>
+        <a href="#zjy-board">口碑榜</a>
+        <a href="#zjy-essay">品牌解析</a>
+        <a href="#zjy-news">企业动态</a>
+        <a href="#zjy-faq">帮助</a>
+      </nav>
+      <div class="zjy-search">
+        <input id="zjySearch" type="search" placeholder="搜索视频、创作者或专题" aria-label="站内搜索">
+        <div class="zjy-search__hint" id="zjySearchHint" role="status"></div>
+      </div>
+      <button class="zjy-menu-btn" id="zjyMenuBtn" aria-expanded="false" aria-controls="zjyNav">菜单</button>
+    </div>
+  </header>
+</div>
+
+<main id="zjy-top-anchor">
+
+  <!-- S2 首屏 -->
+  <section class="zjy-hero" aria-labelledby="zjyHeroTitle">
+    <div class="zjy-wrap">
+      <div class="zjy-hero__grid">
+        <div>
+          <span class="zjy-hero__badge">官方网站 · 品牌 · 持续运营中</span>
+          <h1 id="zjyHeroTitle">警花张津渝</h1>
+          <p class="zjy-hero__lead">以真实影像记录一线女警的从警日常，用专业与温度讲好每一条普法知识。</p>
+          <p class="zjy-hero__intro">
+            这里是「警花张津渝」官方网站，也是她的原创高清视频门户。我们以社区化的内容生态，
+            汇聚普法短片、警务纪实、城市文化访谈与创作者故事，让专业的知识更易抵达、让真实的力量被看见。
+            平台坚持正版与品质优先，与企业、机构共同搭建值得信赖的公共内容空间。
+          </p>
+          <div class="zjy-hero__actions">
+            <a class="zjy-btn zjy-btn--primary" href="#zjy-videos">观看精选视频</a>
+            <a class="zjy-btn zjy-btn--ghost" href="#zjy-topics">进入专题企划</a>
+            <button class="zjy-btn zjy-btn--ghost" data-zjy-open="submit">我要投稿</button>
+          </div>
+          <div class="zjy-hero__stats">
+            <div class="zjy-stat"><b>1,286</b><span>原创视频作品</span></div>
+            <div class="zjy-stat"><b>327 万</b><span>全平台关注</span></div>
+            <div class="zjy-stat"><b>46 城</b><span>普法合作社区</span></div>
+          </div>
+        </div>
+        <div class="zjy-hero__visual">
+          <img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 600'%3E%3Cdefs%3E%3ClinearGradient id='sky' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23bcd4f2'/%3E%3Cstop offset='1' stop-color='%23eaf2fb'/%3E%3C/linearGradient%3E%3ClinearGradient id='uni' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23234679'/%3E%3Cstop offset='1' stop-color='%2312294a'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='800' height='600' fill='url(%23sky)'/%3E%3Ccircle cx='640' cy='120' r='70' fill='%23f6d9a0' opacity='.85'/%3E%3Cpath d='M0 470h800v130H0z' fill='%23dbe7f5'/%3E%3Crect x='60' y='300' width='180' height='180' rx='10' fill='%23c9daee'/%3E%3Crect x='84' y='326' width='46' height='52' fill='%23a9c2e0'/%3E%3Crect x='150' y='326' width='46' height='52' fill='%23a9c2e0'/%3E%3Crect x='84' y='400' width='112' height='80' fill='%23b7cde6'/%3E%3Cpath d='M420 470V250l120-70 120 70v220z' fill='%23cddff2'/%3E%3Cpath d='M420 470V250l120-70 120 70' fill='none' stroke='%239cb8d8' stroke-width='6'/%3E%3Ccircle cx='400' cy='300' r='52' fill='%23f2c8a8'/%3E%3Cpath d='M348 300a52 52 0 0 1 104 0z' fill='%231f2d45'/%3E%3Cpath d='M330 470c0-62 32-104 70-104s70 42 70 104z' fill='url(%23uni)'/%3E%3Cpath d='M355 400h90l14 30h-118z' fill='%23e8a33d'/%3E%3Ccircle cx='400' cy='376' r='9' fill='%23f5e6c8'/%3E%3Cpath d='M262 470c0-40 22-66 48-66s48 26 48 66z' fill='%232f5388'/%3E%3Ccircle cx='310' cy='386' r='30' fill='%23eec1a2'/%3E%3Cpath d='M280 386a30 30 0 0 1 60 0z' fill='%232a3550'/%3E%3Crect x='600' y='430' width='150' height='12' rx='6' fill='%23b3cae4'/%3E%3Crect x='600' y='454' width='110' height='12' rx='6' fill='%23c3d6ea'/%3E%3Cg fill='%23ffffff' opacity='.5'%3E%3Ccircle cx='180' cy='120' r='6'/%3E%3Ccircle cx='230' cy='90' r='4'/%3E%3Ccircle cx='300' cy='140' r='5'/%3E%3C/g%3E%3C/svg%3E" alt="警花张津渝官方门户主视觉：身着制服的创作者形象与城市晨光背景" width="800" height="600">
+          <div class="zjy-hero__float">
+            <strong>本周官方首播</strong>
+            《反诈小课堂》第 12 集 · 熟人转账话术拆解
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- S3 焦点内容 -->
+  <section class="zjy-section zjy-section--alt" id="zjy-focus" aria-labelledby="zjyFocusTitle">
+    <div class="zjy-wrap">
+      <div class="zjy-sec-head">
+        <div class="zjy-eyebrow">Focus · 焦点推荐</div>
+        <h2 id="zjyFocusTitle">警花张津渝官网焦点：本周最值得一看的原创内容</h2>
+        <p>从街面巡逻到社区讲堂，我们挑选了三条不同节奏的影像，让专业与真实同时抵达。</p>
+      </div>
+      <div class="zjy-focus">
+        <article class="zjy-focus__main">
+          <img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 450'%3E%3Cdefs%3E%3ClinearGradient id='g1' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23274d84'/%3E%3Cstop offset='1' stop-color='%23122a4c'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='800' height='450' fill='url(%23g1)'/%3E%3Crect x='70' y='80' width='300' height='180' rx='12' fill='%23f3f7fc' opacity='.9'/%3E%3Crect x='96' y='112' width='180' height='14' rx='7' fill='%23c3d6ea'/%3E%3Crect x='96' y='142' width='240' height='10' rx='5' fill='%23d8e5f3'/%3E%3Crect x='96' y='166' width='200' height='10' rx='5' fill='%23d8e5f3'/%3E%3Crect x='96' y='200' width='110' height='26' rx='13' fill='%23e8a33d'/%3E%3Ccircle cx='600' cy='250' r='96' fill='%23f0c6a6'/%3E%3Cpath d='M504 250a96 96 0 0 1 192 0z' fill='%231e2b44'/%3E%3Cpath d='M470 450c0-92 58-152 130-152s130 60 130 152z' fill='%232c568d'/%3E%3Cpath d='M560 350h80l12 26h-104z' fill='%23e8a33d'/%3E%3Cg stroke='%23ffffff' stroke-width='3' opacity='.35'%3E%3Cpath d='M0 380h800'/%3E%3Cpath d='M0 410h800'/%3E%3C/g%3E%3C/svg%3E" alt="反诈小课堂第12集封面：屏幕前的通话诈骗话术拆解画面" width="800" height="450">
+          <div class="zjy-focus__body">
+            <span class="zjy-tag">深度测评</span><span class="zjy-tag zjy-tag--navy">反诈科普</span>
+            <h3>熟人转账话术拆解：三个停顿，让骗局在开口前结束</h3>
+            <p>本期把镜头对准真实案例复盘。我们把一段完整通话拆成五个节点，标注每个节点的情绪诱导与决策陷阱，并给出一句可以直接说出口的拒绝话术。没有夸张演绎，只有可以反复观看、反复练习的细节。</p>
+            <div class="zjy-card-meta">
+              <span>作者 <b>警花张津渝</b></span>
+              <span>播放 <b>18.6 万</b></span>
+              <span>点赞 <b>1.2 万</b></span>
+              <span>收藏 <b>8,430</b></span>
+            </div>
+            <div class="zjy-actions" style="justify-content:flex-start;margin-top:.9em;">
+              <button class="zjy-act" data-zjy-like>♡ 点赞 <b>12,046</b></button>
+              <button class="zjy-act" data-zjy-save>☆ 收藏</button>
+              <button class="zjy-act" data-zjy-share>分享</button>
+            </div>
+          </div>
+        </article>
+        <div class="zjy-focus__list">
+          <article class="zjy-mini">
+            <span class="zjy-mini__num">02</span>
+            <div>
+              <h4>夜巡一小时：城市睡前的最后一班岗</h4>
+              <p>手持镜头跟随一次真实巡逻，记录值班室灯光、街角问询与凌晨的交接本。</p>
+              <div class="zjy-card-meta"><span>城市探索</span><span>播放 <b>9.4 万</b></span></div>
+            </div>
+          </article>
+          <article class="zjy-mini">
+            <span class="zjy-mini__num">03</span>
+            <div>
+              <h4>校园普法第一课：怎么把法条讲成故事</h4>
+              <p>创作者向社区教师与家长分享一套可复用的课堂脚本结构，含现场提问话术。</p>
+              <div class="zjy-card-meta"><span>教程干货</span><span>播放 <b>7.1 万</b></span></div>
+            </div>
+          </article>
+          <article class="zjy-mini">
+            <span class="zjy-mini__num">04</span>
+            <div>
+              <h4>她说：从警十年，我记住的十二个瞬间</h4>
+              <p>一场三十分钟的深度访谈，谈职业选择、家庭理解与那些不被记录的日常。</p>
+              <div class="zjy-card-meta"><span>人物访谈</span><span>播放 <b>6.8 万</b></span></div>
+            </div>
+          </article>
+          <article class="zjy-mini">
+            <span class="zjy-mini__num">05</span>
+            <div>
+              <h4>装备开箱：出勤包里真正会被用到的东西</h4>
+              <p>基于真实使用频率的理性评测，逐项说明哪些是必需、哪些是心理安慰。</p>
+              <div class="zjy-card-meta"><span>实用技巧</span><span>播放 <b>5.9 万</b></span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- S3 视频精选 -->
+  <section class="zjy-section" id="zjy-videos" aria-labelledby="zjyVideoTitle">
+    <div class="zjy-wrap">
+      <div class="zjy-sec-head">
+        <div class="zjy-eyebrow">Videos · 视频精选</div>
+        <h2 id="zjyVideoTitle">正版高清视频条目：警花张津渝的原创内容清单</h2>
+        <p>以文字索引为主、重点条目配图，方便先读后看。所有片源均为官方发布，支持收藏与下载。</p>
+      </div>
+
+      <div class="zjy-vlist">
+        <article class="zjy-vitem">
+          <div>
+            <div class="zjy-vitem__top">
+              <span class="zjy-tag">教程干货</span><span class="zjy-tag zjy-tag--navy">职场日常</span>
+            </div>
+            <h3>三分钟讲清“刷单返利”：为什么第一笔总能到账</h3>
+            <p>用一条资金流向动画解释返利的真实来源，并给出参与前的四个自检问题，适合当作社区宣讲的暖场素材。</p>
+            <div class="zjy-vitem__author">作者 <b>警花张津渝</b> · 播放 14.2 万 · 点赞 9,120 · 收藏 6,240</div>
+          </div>
+          <div class="zjy-actions">
+            <button class="zjy-act" data-zjy-like>♡ 点赞</button>
+            <button class="zjy-act" data-zjy-save>☆ 收藏</button>
+            <button class="zjy-act" data-zjy-share>分享</button>
+          </div>
+        </article>
+
+        <article class="zjy-vitem">
+          <div>
+            <div class="zjy-vitem__top">
+              <span class="zjy-tag">城市探索</span><span class="zjy-tag zjy-tag--navy">在地文化</span>
+            </div>
+            <h3>沿着护城河走一遍：老城区的安全细节图鉴</h3>
+            <p>从路灯间距、盲道断点到应急点位，把一条熟悉的散步路线读成一张城市安全地图，附可打印的标注图。</p>
+            <div class="zjy-vitem__author">作者 <b>警花张津渝</b> · 播放 11.7 万 · 点赞 7,860 · 收藏 5,310</div>
+          </div>
+          <div class="zjy-actions">
+            <button class="zjy-act" data-zjy-like>♡ 点赞</button>
+            <button class="zjy-act" data-zjy-save>☆ 收藏</button>
+            <button class="zjy-act" data-zjy-share>分享</button>
+          </div>
+        </article>
+
+        <article class="zjy-vitem">
+          <div>
+            <div class="zjy-vitem__top">
+              <span class="zjy-tag">创作幕后</span><span class="zjy-tag zjy-tag--navy">品牌故事</span>
+            </div>
+            <h3>一条普法短片是怎么拍出来的：脚本、现场与取舍</h3>
+            <p>完整展示从选题会到成片的六个环节，包括如何在真实与隐私之间做取舍，以及被剪掉的三个画面。</p>
+            <div class="zjy-vitem__author">作者 <b>张津渝影像组</b> · 播放 8.9 万 · 点赞 6,240 · 收藏 4,180</div>
+          </div>
+          <div class="zjy-actions">
+            <button class="zjy-act" data-zjy-like>♡ 点赞</button>
+            <button class="zjy-act" data-zjy-save>☆ 收藏</button>
+            <button class="zjy-act" data-zjy-share>分享</button>
+          </div>
+        </article>
+
+        <article class="zjy-vitem">
+          <div>
+            <div class="zjy-vitem__top">
+              <span class="zjy-tag">情感故事</span><span class="zjy-tag zjy-tag--navy">治愈影像</span>
+            </div>
+            <h3>值班室里的那杯热水：六个陌生人之间的信任</h3>
+            <p>记录一个冬夜里六位来访者的片段，不带滤镜的现场声与留白，讲述信任是如何被一点点建立的。</p>
+            <div class="zjy-vitem__author">作者 <b>警花张津渝</b> · 播放 7.5 万 · 点赞 5,930 · 收藏 3,760</div>
+          </div>
+          <div class="zjy-actions">
+            <button class="zjy-act" data-zjy-like>♡ 点赞</button>
+            <button class="zjy-act" data-zjy-save>☆ 收藏</button>
+            <button class="zjy-act" data-zjy-share>分享</button>
+          </div>
+        </article>
+
+        <article class="zjy-vitem">
+          <div>
+            <div class="zjy-vitem__top">
+              <span class="zjy-tag">知识科普</span><span class="zjy-tag zjy-tag--navy">深度测评</span>
+            </div>
+            <h3>反诈 App 到底该开哪些权限：一次逐项实测</h3>
+            <p>横向对比三类常见防护工具的权限请求与误报率，用一周使用日志说明哪些功能真的有用。</p>
+            <div class="zjy-vitem__author">作者 <b>警花张津渝</b> · 播放 6.2 万 · 点赞 4,410 · 收藏 5,020</div>
+          </div>
+          <div class="zjy-actions">
+            <button class="zjy-act" data-zjy-like>♡ 点赞</button>
+            <button class="zjy-act" data-zjy-save>☆ 收藏</button>
+            <button class="zjy-act" data-zjy-share>分享</button>
+          </div>
+        </article>
+
+        <article class="zjy-vitem">
+          <div>
+            <div class="zjy-vitem__top">
+              <span class="zjy-tag">行业观察</span><span class="zjy-tag zjy-tag--navy">文化访谈</span>
+            </div>
+            <h3>对话社区网格员：基层治理里最琐碎也最要紧的事</h3>
+            <p>与三位一线网格员聊了两小时，整理成一份关于沟通、记录与耐心的现场笔记，附完整音轨时间轴。</p>
+            <div class="zjy-vitem__author">作者 <b>张津渝影像组</b> · 播放 5.4 万 · 点赞 3,880 · 收藏 2,940</div>
+          </div>
+          <div class="zjy-actions">
+            <button class="zjy-act" data-zjy-like>♡ 点赞</button>
+            <button class="zjy-act" data-zjy-save>☆ 收藏</button>
+            <button class="zjy-act" data-zjy-share>分享</button>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- S4 专题 -->
+  <section class="zjy-section zjy-section--alt" id="zjy-topics" aria-labelledby="zjyTopicTitle">
+    <div class="zjy-wrap">
+      <div class="zjy-sec-head">
+        <div class="zjy-eyebrow">Series · 专题企划</div>
+        <h2 id="zjyTopicTitle">专题企划：把警花张津渝的品牌故事拍成连续剧</h2>
+        <p>三个长期企划，分别面向校园、社区与创作者。每个专题都持续更新，欢迎报名参与或投稿。</p>
+      </div>
+      <div class="zjy-topics">
+        <article class="zjy-topic">
+          <span class="zjy-topic__status">更新至第 12 集</span>
+          <h3>反诈小课堂 · 十二种常见骗局拆解</h3>
+          <p>每集只讲一个骗局，控制在三分钟以内，配一张可转发的图文卡，方便社区工作者直接使用。</p>
+          <ul>
+            <li>第 10 集：冒充客服退款，先挂断再核实</li>
+            <li>第 11 集：投资群里的“老师”为什么总在赢</li>
+            <li>第 12 集：熟人转账话术拆解与拒绝模板</li>
+          </ul>
+        </article>
+        <article class="zjy-topic zjy-topic--figure">
+          <span class="zjy-topic__status zjy-topic__status--soon">报名中 · 12 月开拍</span>
+          <h3>法治微光 · 校园影像作业征集</h3>
+          <p>面向 30 所中学征集三分钟以内的普法短片，入选作品将在官网首页轮播，并获得创作者一对一辅导。</p>
+          <div class="zjy-topic__figure">
+            <img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 450'%3E%3Crect width='800' height='450' fill='%23f6efe2'/%3E%3Crect x='0' y='300' width='800' height='150' fill='%23e7dcc4'/%3E%3Crect x='90' y='70' width='360' height='220' rx='14' fill='%23ffffff' stroke='%23234679' stroke-width='4'/%3E%3Crect x='118' y='100' width='180' height='16' rx='8' fill='%23c9b48b'/%3E%3Crect x='118' y='132' width='280' height='10' rx='5' fill='%23ded2b8'/%3E%3Crect x='118' y='154' width='240' height='10' rx='5' fill='%23ded2b8'/%3E%3Crect x='118' y='190' width='130' height='30' rx='15' fill='%23e8a33d'/%3E%3Ccircle cx='580' cy='210' r='72' fill='%23f0c9a8'/%3E%3Cpath d='M508 210a72 72 0 0 1 144 0z' fill='%23303a52'/%3E%3Cpath d='M488 360c0-66 41-110 92-110s92 44 92 110z' fill='%232c568d'/%3E%3Cpath d='M560 286h44l8 18h-60z' fill='%23e8a33d'/%3E%3Cg fill='%23c3b394'%3E%3Ccircle cx='700' cy='90' r='10'/%3E%3Ccircle cx='730' cy='130' r='6'/%3E%3Ccircle cx='680' cy='150' r='5'/%3E%3C/g%3E%3C/svg%3E" alt="法治微光校园影像作业征集专题配图：学生在教室观看普法短片" width="800" height="450">
+          </div>
+        </article>
+        <article class="zjy-topic">
+          <span class="zjy-topic__status">长期更新 · 每周三</span>
+          <h3>社区讲堂 · 一堂能被复用的普法课</h3>
+          <p>把线下讲稿整理成可直接播放的影像课件，含讲师逐段讲解与现场问答，社区可申请使用。</p>
+          <ul>
+            <li>课件 01：老年人防骗的三句话开场</li>
+            <li>课件 02：如何向孩子解释“隐私边界”</li>
+            <li>课件 03：邻里纠纷的第一通电话怎么打</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- S5 创作者 -->
+  <section class="zjy-section" id="zjy-authors" aria-labelledby="zjyAuthorTitle">
+    <div class="zjy-wrap">
+      <div class="zjy-sec-head">
+        <div class="zjy-eyebrow">Creators · 创作者矩阵</div>
+        <h2 id="zjyAuthorTitle">警花张津渝创作者矩阵：内容生态里的多元伙伴</h2>
+        <p>品牌背后不是一个人，而是一群坚持真实表达的人。点击头像或按钮可查看作者档案。</p>
+      </div>
+      <div class="zjy-authors">
+        <article class="zjy-author">
+          <div class="zjy-avatar" style="background:linear-gradient(135deg,#1a3a6b,#2f5f9e);" aria-hidden="true">张</div>
+          <h3>警花张津渝</h3>
+          <div class="zjy-author__field">普法 / 警务纪实</div>
+          <p>一线女警与影像创作者。擅长把复杂的法条拆成可以复述的日常语言，作品多以第一人称记录，强调现场感与真实性。持续运营反诈与社区普法栏目，坚持正版高清呈现。</p>
+          <div class="zjy-author__nums"><span>作品 <b>486</b></span><span>粉丝 <b>168 万</b></span></div>
+          <button class="zjy-btn zjy-btn--line" data-zjy-author="警花张津渝">查看档案</button>
+        </article>
+        <article class="zjy-author">
+          <div class="zjy-avatar" style="background:linear-gradient(135deg,#b8762f,#e8a33d);" aria-hidden="true">影</div>
+          <h3>张津渝影像组</h3>
+          <div class="zjy-author__field">创作幕后 / 剪辑</div>
+          <p>由四位摄影与剪辑组成的幕后团队，负责片源调色、现场收音与成片结构。擅长在有限设备条件下拍出稳定品质，乐于公开工作流程与方法，是内容生态里可靠的品质保障。</p>
+          <div class="zjy-author__nums"><span>作品 <b>312</b></span><span>粉丝 <b>52 万</b></span></div>
+          <button class="zjy-btn zjy-btn--line" data-zjy-author="张津渝影像组">查看档案</button>
+        </article>
+        <article class="zjy-author">
+          <div class="zjy-avatar" style="background:linear-gradient(135deg,#2f7a5b,#5cb08a);" aria-hidden="true">林</div>
+          <h3>林一舟</h3>
+          <div class="zjy-author__field">城市探索 / 在地文化</div>
+          <p>本地纪录片导演，长期拍摄城市边缘空间与普通人的工作现场。镜头克制，偏爱自然声与长镜头，与品牌合作完成多期城市安全图鉴，讲究实地考证与细节准确。</p>
+          <div class="zjy-author__nums"><span>作品 <b>128</b></span><span>粉丝 <b>31 万</b></span></div>
+          <button class="zjy-btn zjy-btn--line" data-zjy-author="林一舟">查看档案</button>
+        </article>
+        <article class="zjy-author">
+          <div class="zjy-avatar" style="background:linear-gradient(135deg,#6b4b8f,#a07ec4);" aria-hidden="true">周</div>
+          <h3>周知白</h3>
+          <div class="zjy-author__field">知识科普 / 数据可视化</div>
+          <p>科普编导与信息设计师，善于把统计数据转成一眼能读懂的图表动画。为反诈系列提供资金流向与话术结构可视化支持，坚持每个数据都有出处、每句结论可回溯。</p>
+          <div class="zjy-author__nums"><span>作品 <b>96</b></span><span>粉丝 <b>24 万</b></span></div>
+          <button class="zjy-btn zjy-btn--line" data-zjy-author="周知白">查看档案</button>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- S6 数据榜单 + 评价 -->
+  <section class="zjy-section zjy-section--alt" id="zjy-board" aria-labelledby="zjyBoardTitle">
+    <div class="zjy-wrap">
+      <div class="zjy-sec-head">
+        <div class="zjy-eyebrow">Ranking & Voice · 榜单与口碑</div>
+        <h2 id="zjyBoardTitle">警花张津渝口碑榜：数据背后是持续运营的信任</h2>
+        <p>榜单按近三十天完播率、收藏率与社区反馈综合排序，每月由官方发布一次更新说明。</p>
+      </div>
+      <div class="zjy-board">
+        <div class="zjy-board__col">
+          <h3>热度榜 <span>TOP 5</span></h3>
+          <ol class="zjy-rank">
+            <li><i>1</i>熟人转账话术拆解<em>18.6 万</em></li>
+            <li><i>2</i>三分钟讲清刷单返利<em>14.2 万</em></li>
+            <li><i>3</i>夜巡一小时<em>9.4 万</em></li>
+            <li><i>4</i>沿着护城河走一遍<em>8.7 万</em></li>
+            <li><i>5</i>一条普法短片的诞生<em>8.1 万</em></li>
+          </ol>
+        </div>
+        <div class="zjy-board__col">
+          <h3>新人榜 <span>新人</span></h3>
+          <ol class="zjy-rank">
+            <li><i>1</i>校园影像社·二中小组<em>3.2 万</em></li>
+            <li><i>2</i>社区志愿者阿岚<em>2.8 万</em></li>
+            <li><i>3</i>剪辑练习生小戍<em>2.1 万</em></li>
+            <li><i>4</i>县城记录者老渔<em>1.9 万</em></li>
+            <li><i>5</i>法学生陈见<em>1.5 万</em></li>
+          </ol>
+        </div>
+        <div class="zjy-board__col">
+          <h3>口碑榜 <span>评分</span></h3>
+          <ol class="zjy-rank">
+            <li><i>1</i>反诈小课堂系列<em>9.6 分</em></li>
+            <li><i>2</i>社区讲堂课件<em>9.4 分</em></li>
+            <li><i>3</i>夜巡纪实短片<em>9.2 分</em></li>
+            <li><i>4</i>幕后工作流分享<em>9.1 分</em></li>
+            <li><i>5</i>城市安全图鉴<em>8.9 分</em></li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="zjy-sec-head" style="margin-top:2.4rem;">
+        <div class="zjy-eyebrow">Voice · 用户评价</div>
+        <h3 style="font-size:1.2rem;color:var(--zjy-navy-deep);margin:.2em 0 .4em;">来自社区的真实反馈</h3>
+        <p>六条不同长度的评价，来自社区工作者、家长、学生与同行创作者。</p>
+      </div>
+      <div class="zjy-quotes">
+        <blockquote class="zjy-quote">
+          <p>“我们把第 12 集直接放进社区活动室的循环播放列表，老人看得懂，年轻人也愿意转发。最难得的是没有夸张表演。”</p>
+          <footer><b>刘阿姨</b> · 社区网格员</footer>
+        </blockquote>
+        <blockquote class="zjy-quote">
+          <p>“孩子第一次主动问我‘隐私边界’是什么意思，就是因为看了那期课件。”</p>
+          <footer><b>陈先生</b> · 学生家长</footer>
+        </blockquote>
+        <blockquote class="zjy-quote">
+          <p>“幕后那期把被剪掉的三个画面也放出来了，这种坦诚在行业里很少见，值得信赖。”</p>
+          <footer><b>阿岚</b> · 新人创作者</footer>
+        </blockquote>
+        <blockquote class="zjy-quote">
+          <p>“画面很稳，收音干净，剪辑节奏克制。作为同行，我更多是在学它怎么把信息密度控制住。”</p>
+          <footer><b>老渔</b> · 县城纪录片作者</footer>
+        </blockquote>
+        <blockquote class="zjy-quote">
+          <p>“希望后续能多讲一点邻里纠纷的处理，家里老人经常遇到。”</p>
+          <footer><b>王女士</b> · 社区住户</footer>
+        </blockquote>
+        <blockquote class="zjy-quote">
+          <p>“作为法学生，我觉得它最专业的地方是给出了可操作的拒绝模板，而不是只喊口号。已收藏全部十二集。”</p>
+          <footer><b>陈见</b> · 法学专业学生</footer>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- S4/M15 关键词解析长文 -->
+  <section class="zjy-section" id="zjy-essay" aria-labelledby="zjyEssayTitle">
+    <div class="zjy-wrap">
+      <div class="zjy-sec-head">
+        <div class="zjy-eyebrow">Brand Insight · 品牌深度解析</div>
+        <h2 id="zjyEssayTitle">为什么“警花张津渝”能成为一个持续被观看的品牌</h2>
+        <p>本篇从内容方法、品牌边界与社区运营三个层面，解析这一关键词背后的真实内容逻辑。</p>
+      </div>
+      <div class="zjy-essay">
+        <h3>一、从“被看见”到“被需要”：内容方法的转变</h3>
+        <p>“警花张津渝”这个关键词最初被搜索，往往带着一种好奇：穿制服的人在日常里是什么样子。但如果只停留在形象展示，内容很快会耗尽。真正让这个品牌留下来的，是它把镜头从“我”转向了“你”——观众在看完之后，能带走一句能说出口的话、一个能照着做的动作，或者一份能打印出来的清单。以《反诈小课堂》为例，每集只处理一个骗局，时长控制在三分钟以内，脚本遵循“现场还原、结构拆解、一句话拒绝、可转发图文”四段式。这种克制让内容具备了被反复调用的价值，社区工作者不必二次加工，家长可以和孩子一起看，学生在课堂上也能讨论。</p>
+        <p>内容方法的第二个转变，是把“专业”翻译成“可操作”。法条本身不是内容，如何把法条变成一次具体的判断，才是内容。比如在“熟人转账话术拆解”中，创作者没有强调“提高警惕”这种空泛结论，而是标记出通话里的三个停顿点，分别对应情绪诱导、时间压迫与身份确认，并给出一句可以直接使用的回应。观众记住的不是知识点，而是动作。这也是<strong>警花张津渝</strong>作为品牌的核心能力：把公共知识转译成日常语言，同时保持信息的准确性。</p>
+
+        <h3>二、品牌的边界：真实、隐私与可核查</h3>
+        <p>涉及警务与公共安全的影像，天然带着边界问题。品牌在这方面的处理，构成了它专业形象的基础。首先是真实性：所有案例复现都经过脱敏，人物关系、时间地点、金额区间都做过调整，但逻辑结构保持原样，观众能看到骗局是如何一步步成立的。其次是隐私：出镜的当事人要么完整授权，要么以背影、手部、声音处理的方式出现，画面里不出现可识别的门牌、车牌与证件信息。第三是可核查：涉及数据与统计的段落，都会在片尾标注来源与统计口径，便于同行复核。这三条看起来是限制，实际上构成了品牌信任的护城河——用户知道在这里看到的东西不需要打折扣。</p>
+        <p>也正因为边界清晰，品牌才能与更多机构合作。社区讲堂的课件之所以能被直接使用，是因为它的表达方式、案例尺度与引用规范都经过了沟通与确认。对于企业与合作方来说，这种可预期的品质比一次爆款更重要；对于观众来说，值得信赖并不是一句宣传语，而是每一次观看时不必担心被夸张叙事冒犯。</p>
+
+        <h3>三、社区的活力：把观众变成共创者</h3>
+        <p>视频品牌的长期运营，最终取决于社区是否愿意开口说话。这个品牌的做法是分层的：第一层是“看懂”，通过三分钟短片与图文卡降低理解门槛；第二层是“用上”，通过可下载的课件、清单与脚本模板，让社区工作者、教师、家长能直接拿去用；第三层是“共创”，通过校园影像征集、社区投稿与创作者辅导，把观众变成参与者。三层之间不是并列关系，而是递进关系——只有当内容被真正使用过，反馈才会具体，投稿才会有质量。</p>
+        <p>从数据上看，这种递进是有效的。收藏率长期高于点赞率，说明观众倾向“先存下来、以后要用”；评论里出现大量具体场景描述，而不是单纯的赞美；新人榜中的校园小组与社区志愿者，多数是从一次课堂或一次活动开始接触，随后自己拿起设备拍摄。<strong>警花张津渝</strong>的内容生态因此呈现出一种少见的结构：核心创作者负责方法论与品质标准，外围创作者负责在地实践与细节补充，官方则负责发布、审核与连接。这是一种可以持续运营的社区形态，也是“官方网站”三个字在这个页面里最实在的含义——它不只是展示窗口，而是协作的枢纽。</p>
+        <p>当然，品牌仍然有需要成长的地方。比如长视频的叙事能力还需要更多练习，城市探索类内容的更新频率不够稳定，评论区的互动也还有提升空间。但这些问题被公开讨论，本身也是品牌的一部分。一个愿意把工作流程、取舍与被剪掉的画面都摆出来的团队，比一个只展示结果的团队更容易获得长期陪伴。对于关注公共议题的观众来说，这样的内容生态值得持续关注，也值得参与其中。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- M6 故事/随笔 -->
+  <section class="zjy-section zjy-section--alt" id="zjy-stories" aria-labelledby="zjyStoryTitle">
+    <div class="zjy-wrap">
+      <div class="zjy-sec-head">
+        <div class="zjy-eyebrow">Notes · 现场笔记</div>
+        <h2 id="zjyStoryTitle">警花张津渝的现场笔记：镜头之外的三段日常</h2>
+        <p>影像有边界，文字可以补上那些没被拍到的部分。</p>
+      </div>
+      <div class="zjy-stories">
+        <article class="zjy-story">
+          <h3>交接本上的第七行</h3>
+          <p>夜巡结束回到值班室，交接本第七行写着“三号楼独居老人，晚九点后未开灯，已电话确认”。这行字只有十七个字，背后是一次敲门、两次通话和一杯没喝完的热水。很多工作不会被拍成视频，但它们构成了视频里那种稳定的底色。</p>
+        </article>
+        <article class="zjy-story">
+          <h3>被剪掉的三分钟</h3>
+          <p>那期反诈短片的初剪版本里，有一段当事人情绪失控的画面。最终我们把它剪掉了，换成一张结构图。不是因为不真实，而是因为真实也需要被尊重。创作的自由，很多时候体现在选择不展示什么。</p>
+        </article>
+        <article class="zjy-story">
+          <h3>一个孩子的问题</h3>
+          <p>校园普法结束后，一个男孩举手问：“如果对方是我亲戚，我也要拒绝吗？”我们花了两分钟回答这个问题，最后把它做成了课件 02 的开场。好的问题往往比好的答案更能推动内容往前走。</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- S7 辅助：企业动态 + 合作 + FAQ -->
+  <section class="zjy-section" id="zjy-news" aria-labelledby="zjyNewsTitle">
+    <div class="zjy-wrap">
+      <div class="zjy-sec-head">
+        <div class="zjy-eyebrow">Updates · 企业动态</div>
+        <h2 id="zjyNewsTitle">警花张津渝官方发布：近期动态与内容更新</h2>
+        <p>品牌资讯、内容上线与活动报名，均在此处同步。</p>
+      </div>
+      <div class="zjy-news">
+        <div class="zjy-news__item">
+          <span class="zjy-news__date">11 / 20</span>
+          <p><b>官方发布：</b>《反诈小课堂》第 12 集上线，同步更新可下载的图文卡与课堂脚本，社区可申请使用授权。</p>
+        </div>
+        <div class="zjy-news__item">
+          <span class="zjy-news__date">11 / 15</span>
+          <p><b>企划报名：</b>「法治微光」校园影像作业征集开启报名，首批开放 30 所中学名额，截止 12 月 5 日。</p>
+        </div>
+        <div class="zjy-news__item">
+          <span class="zjy-news__date">11 / 08</span>
+          <p><b>功能更新：</b>官网视频条目新增收藏与批量下载标记，片源统一为高清版本，页面加载速度优化约 28%。</p>
+        </div>
+        <div class="zjy-news__item">
+          <span class="zjy-news__date">10 / 30</span>
+          <p><b>内容合作：</b>与三地社区服务中心达成内容共建，社区讲堂课件将按季度更新，欢迎更多机构联系投稿。</p>
+        </div>
+      </div>
+
+      <div class="zjy-sec-head" style="margin-top:2.4rem;">
+        <div class="zjy-eyebrow">Partners · 合作品牌</div>
+        <h3 style="font-size:1.2rem;color:var(--zjy-navy-deep);margin:.2em 0 .4em;">一起把公共知识送到更远的地方</h3>
+      </div>
+      <div class="zjy-partners">
+        <div class="zjy-partner">城市社区服务中心</div>
+        <div class="zjy-partner">青少年法治教育联盟</div>
+        <div class="zjy-partner">本地纪录片工坊</div>
+        <div class="zjy-partner">平安校园共建计划</div>
+        <div class="zjy-partner">社区影像志愿队</div>
+        <div class="zjy-partner">公共知识开放平台</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ + 联系 -->
+  <section class="zjy-section zjy-section--alt" id="zjy-faq" aria-labelledby="zjyFaqTitle">
+    <div class="zjy-wrap">
+      <div class="zjy-sec-head">
+        <div class="zjy-eyebrow">Help · 帮助中心</div>
+        <h2 id="zjyFaqTitle">关于警花张津渝官网的常见问题</h2>
+        <p>以下问题来自后台与评论区，按提问频率整理。</p>
+      </div>
+      <div class="zjy-faq">
+        <details open>
+          <summary>官网的视频可以转载或用于课堂吗？</summary>
+          <p>非商业的教学、社区宣讲用途可在注明来源的前提下使用，建议先通过投稿入口提交使用说明。涉及二次剪辑或商业合作，请与我们联系获取书面授权，所有片源均为官方正版高清版本。</p>
+        </details>
+        <details>
+          <summary>如何参与「法治微光」校园影像征集？</summary>
+          <p>在投稿入口选择“校园征集”类型，填写学校、指导老师与作品简介，提交三分钟以内的成片或脚本。首批报名截止 12 月 5 日，入选作品将由创作者团队提供一对一修改建议。</p>
+        </details>
+        <details>
+          <summary>内容里的案例是真实发生的吗？</summary>
+          <p>案例基于真实事件改编，人物关系、时间地点与金额区间均做过脱敏调整，但骗局的结构与话术节点保持原样。涉及统计数据的段落会在片尾标注来源与统计口径。</p>
+        </details>
+        <details>
+          <summary>为什么部分视频只有文字条目？</summary>
+          <p>为保证阅读效率与加载速度，正文以文字索引为主，重点条目配封面图。所有条目都可在播放页查看完整片源，收藏后可在个人列表中统一管理。</p>
+        </details>
+        <details>
+          <summary>社区讲堂课件怎么申请？</summary>
+          <p>在联系区留下机构名称、使用场景与预计人数，我们会在三个工作日内回复。课件包含讲师逐段讲解、现场问答与可打印讲义，使用时请保留官方来源标识。</p>
+        </details>
+        <details>
+          <summary>品牌是否接受企业或机构的内容合作？</summary>
+          <p>接受。我们更看重主题的公共价值与表达的真实性，合作形式包括联合企划、课件共建与线下活动记录。请通过投稿入口提交合作意向与简要方案。</p>
+        </details>
+        <details>
+          <summary>如何第一时间看到更新？</summary>
+          <p>官网公告条会同步最新上线内容，视频精选与专题企划页面也会按周更新。你也可以在收藏后通过个人列表查看更新提醒。</p>
+        </details>
+      </div>
+
+      <div class="zjy-contact" style="margin-top:2.4rem;">
+        <div>
+          <h2>投稿与共创：让警花张津渝的故事继续生长</h2>
+          <p>无论你是在社区工作、在学校教书，还是单纯喜欢记录，这里都欢迎你的影像与文字。我们提供选题建议、脚本辅导与发布支持。</p>
+          <div class="zjy-hero__actions" style="margin-bottom:0;">
+            <button class="zjy-btn zjy-btn--primary" data-zjy-open="submit">提交投稿</button>
+            <button class="zjy-btn zjy-btn--ghost" data-zjy-open="feedback">反馈建议</button>
+          </div>
+        </div>
+        <div class="zjy-contact__box">
+          <h3>联系与协作</h3>
+          <p>内容合作：brand@jinghua-zy.example</p>
+          <p>投稿咨询：submit@jinghua-zy.example</p>
+          <p>社区课件：course@jinghua-zy.example</p>
+          <p>工作时间：周一至周五 09:30–18:00</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="zjy-footer">
+  <div class="zjy-wrap">
+    <div class="zjy-footer__grid">
+      <div class="zjy-footer__brand">
+        <h3>警花张津渝 · 官方网站</h3>
+        <p>以真实、专业、温暖的原创高清影像，记录从警日常与社区故事，构建值得信赖的公共内容生态。平台坚持正版与品质优先，持续运营，欢迎创作者与企业共同参与。</p>
+      </div>
+      <div>
+        <h3>内容</h3>
+        <ul>
+          <li><a href="#zjy-focus">焦点内容</a></li>
+          <li><a href="#zjy-videos">视频精选</a></li>
+          <li><a href="#zjy-topics">专题企划</a></li>
+          <li><a href="#zjy-stories">现场笔记</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>品牌</h3>
+        <ul>
+          <li><a href="#zjy-essay">品牌解析</a></li>
+          <li><a href="#zjy-authors">创作者矩阵</a></li>
+          <li><a href="#zjy-news">企业动态</a></li>
+          <li><a href="#zjy-board">口碑榜单</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>支持</h3>
+        <ul>
+          <li><a href="#zjy-faq">帮助中心</a></li>
+          <li><a href="#zjy-faq">联系与投稿</a></li>
+          <li><a href="#zjy-faq">使用授权</a></li>
+          <li><a href="#zjy-top-anchor">回到顶部</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="zjy-footer__bottom">
+      <span>© 2026 警花张津渝官方网站 · 版权所有 · 持续运营中</span>
+      <span>备案号：示例备案 00000000 号 · 官方发布 · 正版高清内容</span>
+    </div>
+  </div>
+</footer>
+
+<div class="zjy-modal" id="zjyModal" role="dialog" aria-modal="true" aria-labelledby="zjyModalTitle">
+  <div class="zjy-modal__panel">
+    <button class="zjy-modal__close" id="zjyModalClose" aria-label="关闭弹窗">✕</button>
+    <h3 id="zjyModalTitle">标题</h3>
+    <p id="zjyModalDesc">说明</p>
+    <div id="zjyModalBody"></div>
+    <div class="zjy-modal__foot">
+      <button class="zjy-btn zjy-btn--line" id="zjyModalCancel">取消</button>
+      <button class="zjy-btn zjy-btn--primary" id="zjyModalOk">确定</button>
+    </div>
+  </div>
+</div>
+
+<div class="zjy-toast" id="zjyToast" role="status" aria-live="polite"></div>
+<button class="zjy-top" id="zjyTopBtn" aria-label="回到顶部">↑</button>
+
+<script>
+(function(){
+  "use strict";
+
+  /* 移动端菜单 */
+  var menuBtn = document.getElementById('zjyMenuBtn');
+  var nav = document.getElementById('zjyNav');
+  if (menuBtn && nav) {
+    menuBtn.addEventListener('click', function(){
+      var open = nav.classList.toggle('is-open');
+      menuBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+      menuBtn.textContent = open ? '收起' : '菜单';
+    });
+    nav.addEventListener('click', function(e){
+      if (e.target.tagName === 'A' && window.innerWidth <= 760) {
+        nav.classList.remove('is-open');
+        menuBtn.setAttribute('aria-expanded', 'false');
+        menuBtn.textContent = '菜单';
+      }
+    });
+  }
+
+  /* Toast */
+  var toast = document.getElementById('zjyToast');
+  var toastTimer = null;
+  function showToast(msg){
+    if (!toast) return;
+    toast.textContent = msg;
+    toast.classList.add('is-on');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function(){ toast.classList.remove('is-on'); }, 2200);
+  }
+
+  /* 搜索 */var searchInput = document.getElementById('zjySearch');
+  var searchHint = document.getElementById('zjySearchHint');
+  var searchData = [
+    '反诈小课堂 第 12 集：熟人转账话术拆解',
+    '夜巡一小时：城市睡前的最后一班岗',
+    '校园普法第一课：把法条讲成故事',
+    '法治微光 · 校园影像作业征集',
+    '社区讲堂课件 01–03',
+    '张津渝影像组：幕后工作流分享',
+    '口碑榜：反诈小课堂系列 9.6 分',
+    '装备开箱：出勤包里的真实使用清单'
+  ];
+  if (searchInput && searchHint) {
+    searchInput.addEventListener('input', function(){
+      var q = this.value.trim();
+      if (!q) { searchHint.classList.remove('is-on'); searchHint.textContent = ''; return; }
+      var matched = searchData.filter(function(item){ return item.indexOf(q) !== -1; });
+      searchHint.classList.add('is-on');
+      if (matched.length) {
+        searchHint.textContent = '找到 ' + matched.length + ' 条：' + matched.slice(0, 2).join('；');
+      } else {
+        searchHint.textContent = '暂无完全匹配，试试“反诈”“校园”“夜巡”等词。';
+      }
+    });
+    searchInput.addEventListener('keydown', function(e){
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        var q = this.value.trim();
+        showToast(q ? '已按“' + q + '”整理相关内容' : '请输入搜索关键词');
+        var target = document.getElementById('zjy-videos');
+        if (target) target.scrollIntoView({behavior:'smooth', block:'start'});
+        searchHint.classList.remove('is-on');
+      }
+    });
+    document.addEventListener('click', function(e){
+      if (!searchHint.contains(e.target) && e.target !== searchInput) {
+        searchHint.classList.remove('is-on');
+      }
+    });
+  }
+
+  /* 点赞 / 收藏 */
+  document.addEventListener('click', function(e){
+    var likeBtn = e.target.closest('[data-zjy-like]');
+    if (likeBtn) {
+      var liked = likeBtn.classList.toggle('is-liked');
+      var numEl = likeBtn.querySelector('b');
+      if (numEl) {
+        var n = parseInt(numEl.textContent.replace(/[^\d]/g, ''), 10) || 0;
+        n += liked ? 1 : -1;
+        numEl.textContent = n.toLocaleString('en-US');
+      } else {
+        likeBtn.textContent = liked ? '♥ 已点赞' : '♡ 点赞';
+      }
+      showToast(liked ? '已点赞，感谢支持' : '已取消点赞');
+      return;
+    }
+    var saveBtn = e.target.closest('[data-zjy-save]');
+    if (saveBtn) {
+      var saved = saveBtn.classList.toggle('is-saved');
+      saveBtn.textContent = saved ? '★ 已收藏' : '☆ 收藏';
+      showToast(saved ? '已加入收藏，可在个人列表查看' : '已取消收藏');
+      return;
+    }
+    var shareBtn = e.target.closest('[data-zjy-share]');
+    if (shareBtn) {
+      openModal('share');
+      return;
+    }
+    var authorBtn = e.target.closest('[data-zjy-author]');
+    if (authorBtn) {
+      openModal('author', authorBtn.getAttribute('data-zjy-author'));
+      return;
+    }
+    var openBtn = e.target.closest('[data-zjy-open]');
+    if (openBtn) {
+      openModal(openBtn.getAttribute('data-zjy-open'));
+    }
+  });
+
+  /* 弹窗 */
+  var modal = document.getElementById('zjyModal');
+  var modalTitle = document.getElementById('zjyModalTitle');
+  var modalDesc = document.getElementById('zjyModalDesc');
+  var modalBody = document.getElementById('zjyModalBody');
+  var modalOk = document.getElementById('zjyModalOk');
+  var modalCancel = document.getElementById('zjyModalCancel');
+  var modalClose = document.getElementById('zjyModalClose');
+  var okAction = null;
+
+  var authorInfo = {
+    '警花张津渝': '一线女警与影像创作者，代表作《反诈小课堂》十二集系列。擅长把法条拆成可复述的日常语言，坚持第一人称记录与正版高清呈现，是品牌的核心创作者。',
+    '张津渝影像组': '由四位摄影与剪辑组成的幕后团队，负责调色、收音与成片结构。乐于公开工作流程与方法，为内容生态提供稳定的品质保障。',
+    '林一舟': '本地纪录片导演，长期拍摄城市边缘空间与普通人的工作现场。镜头克制，偏爱自然声与长镜头，与品牌合作完成多期城市安全图鉴。',
+    '周知白': '科普编导与信息设计师，善于把统计数据转成易读的图表动画。为反诈系列提供可视化支持，坚持每个数据都有出处。'
+  };
+
+  function openModal(type, name){
+    if (!modal) return;
+    modalBody.innerHTML = '';
+    modalOk.style.display = 'inline-flex';
+    if (type === 'share') {
+      modalTitle.textContent = '分享这条内容';
+      modalDesc.textContent = '复制链接，或选择常用平台分享给朋友。';
+      modalBody.innerHTML = '<p style="font-size:.84rem;color:#6d7f97;">微信 / 微博 / QQ 等平台请在复制链接后粘贴分享。</p>';
+      modalOk.textContent = '复制链接';
+      okAction = function(){
+        var link = 'https://jinghua-zy.example/video/fanzha-12';
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(link).then(function(){ showToast('链接已复制到剪贴板'); },
+            function(){ showToast('复制失败，请手动选择链接'); });
+        } else {
+          showToast('当前环境不支持自动复制');
+        }
+        closeModal();
+      };
+    } else if (type === 'author') {
+      modalTitle.textContent = name || '创作者档案';
+      modalDesc.textContent = '创作者简介与擅长领域';
+      modalBody.innerHTML = '<p style="font-size:.9rem;color:#41536c;">' + (authorInfo[name] || '暂无更多资料。') + '</p>';
+      modalOk.textContent = '关注该作者';
+      okAction = function(){ showToast('已关注 ' + (name || '创作者')); closeModal(); };
+    } else if (type === 'submit') {
+      modalTitle.textContent = '提交投稿';
+      modalDesc.textContent = '请简要描述你的选题、形式与使用场景，我们会尽快回复。';
+      modalBody.innerHTML = '<textarea id="zjySubmitText" placeholder="例如：社区反诈短剧，3 分钟，面向老年住户……"></textarea>';
+      modalOk.textContent = '提交';
+      okAction = function(){
+        var ta = document.getElementById('zjySubmitText');
+        if (ta && ta.value.trim().length < 6) { showToast('请至少填写 6 个字'); return; }
+        showToast('投稿已提交，感谢参与共创');
+        closeModal();
+      };
+    } else if (type === 'feedback') {
+      modalTitle.textContent = '反馈建议';
+      modalDesc.textContent = '你希望看到什么内容？哪里还可以更好？';
+      modalBody.innerHTML = '<textarea id="zjyFeedbackText" placeholder="写下你的建议……"></textarea>';
+      modalOk.textContent = '发送';
+      okAction = function(){
+        var ta = document.getElementById('zjyFeedbackText');
+        if (ta && !ta.value.trim()) { showToast('请先写下建议'); return; }
+        showToast('反馈已收到，谢谢你的真实声音');
+        closeModal();
+      };
+    }
+    modal.classList.add('is-on');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeModal(){
+    if (!modal) return;
+    modal.classList.remove('is-on');
+    document.body.style.overflow = '';
+    okAction = null;
+  }
+
+  if (modalOk) modalOk.addEventListener('click', function(){ if (typeof okAction === 'function') okAction(); });
+  if (modalCancel) modalCancel.addEventListener('click', closeModal);
+  if (modalClose) modalClose.addEventListener('click', closeModal);
+  if (modal) modal.addEventListener('click', function(e){ if (e.target === modal) closeModal(); });
+  document.addEventListener('keydown', function(e){ if (e.key === 'Escape') closeModal(); });
+
+  /* 回到顶部 */
+  var topBtn = document.getElementById('zjyTopBtn');
+  window.addEventListener('scroll', function(){
+    if (!topBtn) return;
+    if (window.scrollY > 520) topBtn.classList.add('is-on');
+    else topBtn.classList.remove('is-on');
+  }, {passive:true});
+  if (topBtn) topBtn.addEventListener('click', function(){
+    window.scrollTo({top:0, behavior:'smooth'});
+  });
+})();
+</script>
+</body>
+          </html>
